@@ -1,0 +1,12 @@
+.parent-div{
+  display: flex;
+  app-users{
+    flex: 1;
+  }
+  app-posts{
+    flex: 1;
+  }
+  app-new-posts{
+    flex: 1;
+  }
+}

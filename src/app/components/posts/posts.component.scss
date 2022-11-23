@@ -1,0 +1,26 @@
+.posts-main{
+  background-color: #CBF4D4;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 0px 10px;
+  height: 100%;
+  .header{
+    text-transform: capitalize;
+    color: #fff;
+  }
+  .posts-details{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin: 8px;
+  }
+  .details{
+    margin: 5px;
+  }
+}

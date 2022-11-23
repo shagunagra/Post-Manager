@@ -1,0 +1,43 @@
+.new-posts-main{
+  background-color: #F8DFE0;
+  padding: 15px;
+  border-radius: 15px;
+  height: 100%;
+  .header{
+    text-transform: capitalize;
+    color: #fff;
+  }
+  .input-fields{
+    display: flex;
+    flex-direction: column;
+    .title{
+      border: none;
+      height: 44px;
+      border-radius: 15px;
+      margin: 16px;
+    }
+    .content{
+      border: none;
+      height: 80px;
+      border-radius: 15px;
+      margin: 16px;
+    }
+    .label{
+      margin: 16px;
+      font-size: 18px;
+    }
+  }
+}
+.save{
+  position: absolute;
+  right: 2%;
+  margin-top: 3%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  width: 6%;
+  background: #E44B25;
+  color: #fff;
+  cursor: pointer;
+}

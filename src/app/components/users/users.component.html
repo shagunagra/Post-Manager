@@ -1,0 +1,12 @@
+<div class="users-main">
+  <h1 class="header">Users</h1>
+  <div *ngFor="let item of getUserInfo[0]">
+    <div class="card-main" (click)="getUserDetails(item.id)">
+      <div><img src="{{item.avatar}}" alt="avtar"></div>
+      <div class="card-details">
+        <span class="details">{{item.name}}</span>
+        <span class="details">{{item.createdAt}}</span>
+      </div>
+    </div>
+  </div>
+</div>

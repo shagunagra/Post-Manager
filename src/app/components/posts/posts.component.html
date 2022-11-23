@@ -1,0 +1,11 @@
+<div class="posts-main">
+  <h1 class="header">Posts of user</h1>
+  <div *ngFor="let item of getUserDetails">
+    <div class="posts-details">
+      <span class="details">{{item.author.name}}</span>
+      <span class="details">{{item.Title}}</span>
+      <span class="details">{{item.createdAt}}</span>
+      <span class="details">{{item.content}}</span>
+    </div>
+  </div>
+</div>

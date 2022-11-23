@@ -1,0 +1,10 @@
+<div class="new-posts-main">
+  <h1 class="header">New Post</h1>
+  <div class="input-fields">
+    <label for="title" class="label">Title</label>
+      <input type="text" class="title" (change)="getTitle($event)">
+      <label for="content" class="label">Content</label>
+      <input type="text" class="content" (change)="getContent($event)">
+  </div>
+  <button class="save" (click)="saveValues()">Save</button>
+</div>
